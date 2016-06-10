@@ -9,14 +9,14 @@ the execution of the automated test cases.
 Please refer to the automation guide document: CalabashCucumberRubyAutomation.docx
 
 #Usage
-To run this sample project:
+To run this sample project:<br />
 1. Change the APP_BUNDLE_PATH variable located in the launch.rb file to point to your iOS app that has been built
-using calabash.framework.
-2. Navigate to the automation project, then from console type:
-   cucumber -p all-tests
-   This will launch the iOS simulator to execute the test cases
-3. Once execution finishes, type this in console to create the report:
-   mvn install
-   mvn exec:java
+using calabash.framework.<br />
+2. Navigate to the automation project, then from console type:<br />
+   cucumber -p all-tests<br />
+   This will launch the iOS simulator to execute the test cases<br />
+3. Once execution finishes, type this in console to create the report:<br />
+   mvn install<br />
+   mvn exec:java<br />
 4. Navigate to ReportHTMLResults folder, then open the feature-overview.html file to see the execution report of the
 automation.
