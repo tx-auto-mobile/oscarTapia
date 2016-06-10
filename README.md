@@ -8,6 +8,11 @@ the execution of the automated test cases.
 #Documentation
 Please refer to the automation guide document: CalabashCucumberRubyAutomation.docx
 
+#Requirements
+This automation tests has been written for Signal-iOS app, so please download the code from:<br /><br />
+https://github.com/WhisperSystems/Signal-iOS<br /><br />
+Then build the app using calabash.framework. Please refer to the guide for information.
+
 #Usage
 To run this sample project:<br />
 1. Change the APP_BUNDLE_PATH variable located in the launch.rb file to point to your iOS app that has been built
