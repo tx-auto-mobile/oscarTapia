@@ -1,0 +1,7 @@
+#Usage: cucumber -p report
+# Where report is the tag coded below which has defined configurations.
+
+under_dev: --format progress --format html --out=features_report.html --tag @under_dev
+bvt: --tags @bvt
+report: --format PrettyFace::Formatter::Html --out index.html
+all_tests: -f pretty -f json -o result.json

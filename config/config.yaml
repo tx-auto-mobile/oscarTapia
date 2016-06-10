@@ -1,0 +1,13 @@
+#TODO: File not used yet, here will be specified the configuration parameters for iOS execution
+environment:
+  default: ""
+
+# InMatch user for log in
+user:
+  user_name: test
+  password: password
+
+
+api:
+# Would call api if needed. i.e.
+  #host: http://inMatch/api
