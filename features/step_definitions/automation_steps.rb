@@ -6,7 +6,6 @@ with the iOS/Android application.
 #TODO: Split the step definitions methods in new files to do this maintainable when project grows up
 require(File.dirname(__FILE__) + '/../../ui_elements/mobile_app')
 require(File.dirname(__FILE__) + '/../../ui_elements/uielements_getter')
-require 'minitest'
 
 
 Then(/^"([^"]*)" button should be present$/) do |arg|

@@ -12,6 +12,7 @@ Feature: Signal automation demo tests
     And I see the "Network Status" element
     Then I should see "Connected" message
 
+    @bvt
   Scenario: As a tester, I want to verify that Enable screen can be activated
     Given I am in main view
     And I tap on "settings" button
@@ -19,6 +20,7 @@ Feature: Signal automation demo tests
     And I tap on "Enable Screen Security" switch
     And "Enable Screen Security" switch should have value "1"
 
+    @bvt
   Scenario: As a tester, I want to verify that Enable screen can be deactivated
     Given I am in main view
     And I tap on "settings" button
